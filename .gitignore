@@ -1,1 +1,21 @@
+.idea
+*.iml
+.vscode
 node_modules
+package-lock.json
+dist
+lerna-debug.log
+.DS_Store
+
+packages/*/es
+packages/*/lib
+
+
+# for docusaurus
+/.docusaurus
+/blog
+/docs
+/mdocs
+/src
+/static
+/sidebars.js
