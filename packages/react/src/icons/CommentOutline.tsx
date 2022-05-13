@@ -6,8 +6,9 @@ const SvgCommentOutline = (props: SVGProps<SVGSVGElement>) => (
     className="comment-outline_svg__icon"
     viewBox="0 0 1024 1024"
     xmlns="http://www.w3.org/2000/svg"
-    width={200}
-    height={200}
+    width={24}
+    height={24}
+    fill={props.color}
     {...props}
   >
     <path d="M573 421c-23.1 0-41 17.9-41 40s17.9 40 41 40c21.1 0 39-17.9 39-40s-17.9-40-39-40zm-280 0c-23.1 0-41 17.9-41 40s17.9 40 41 40c21.1 0 39-17.9 39-40s-17.9-40-39-40z" />

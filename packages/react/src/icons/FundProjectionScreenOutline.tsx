@@ -6,8 +6,9 @@ const SvgFundProjectionScreenOutline = (props: SVGProps<SVGSVGElement>) => (
     className="fund-projection-screen-outline_svg__icon"
     viewBox="0 0 1024 1024"
     xmlns="http://www.w3.org/2000/svg"
-    width={200}
-    height={200}
+    width={24}
+    height={24}
+    fill={props.color}
     {...props}
   >
     <path d="M312.1 591.5c3.1 3.1 8.2 3.1 11.3 0l101.8-101.8 86.1 86.2c3.1 3.1 8.2 3.1 11.3 0l226.3-226.5c3.1-3.1 3.1-8.2 0-11.3l-36.8-36.8c-3.1-3.1-8.2-3.1-11.3 0L517 485.3l-86.1-86.2c-3.1-3.1-8.2-3.1-11.3 0L275.3 543.4c-3.1 3.1-3.1 8.2 0 11.3l36.8 36.8z" />

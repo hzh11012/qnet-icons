@@ -6,8 +6,9 @@ const SvgMacCommandFilled = (props: SVGProps<SVGSVGElement>) => (
     className="mac-command-filled_svg__icon"
     viewBox="0 0 1024 1024"
     xmlns="http://www.w3.org/2000/svg"
-    width={200}
-    height={200}
+    width={24}
+    height={24}
+    fill={props.color}
     {...props}
   >
     <path d="M624 672c0 26.5 21.5 48 48 48s48-21.5 48-48-21.5-48-48-48h-48v48zm96-320c0-26.5-21.5-48-48-48s-48 21.5-48 48v48h48c26.5 0 48-21.5 48-48z" />

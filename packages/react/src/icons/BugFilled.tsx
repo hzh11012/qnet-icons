@@ -6,6 +6,9 @@ const SvgBugFilled = (props: SVGProps<SVGSVGElement>) => (
     className="bug-filled_svg__icon"
     viewBox="0 0 1024 1024"
     xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={24}
+    fill={props.color}
     {...props}
   >
     <path d="M304 280h416c4.4 0 8-3.6 8-8 0-40-8.8-76.7-25.9-108.1-17.2-31.5-42.5-56.8-74-74C596.7 72.8 560 64 520 64h-16c-40 0-76.7 8.8-108.1 25.9-31.5 17.2-56.8 42.5-74 74C304.8 195.3 296 232 296 272c0 4.4 3.6 8 8 8z" />

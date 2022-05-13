@@ -6,8 +6,9 @@ const SvgRotateLeftOutline = (props: SVGProps<SVGSVGElement>) => (
     className="rotate-left-outline_svg__icon"
     viewBox="0 0 1024 1024"
     xmlns="http://www.w3.org/2000/svg"
-    width={200}
-    height={200}
+    width={24}
+    height={24}
+    fill={props.color}
     {...props}
   >
     <path d="M672 418H144c-17.7 0-32 14.3-32 32v414c0 17.7 14.3 32 32 32h528c17.7 0 32-14.3 32-32V450c0-17.7-14.3-32-32-32zm-44 402H188V494h440v326z" />

@@ -6,6 +6,9 @@ const SvgCloudServerOutline = (props: SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     className="cloud-server-outline_svg__icon"
     viewBox="0 0 1024 1024"
+    width={24}
+    height={24}
+    fill={props.color}
     {...props}
   >
     <path d="M704 446H320c-4.4 0-8 3.6-8 8v402c0 4.4 3.6 8 8 8h384c4.4 0 8-3.6 8-8V454c0-4.4-3.6-8-8-8zm-328 64h272v117H376V510zm272 290H376V683h272v117z" />

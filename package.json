@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "compiler:code": "ts-node build/build-component.ts",
-    "svgr:code": "svgr -d packages/react/src/icons source/*/ --typescript --index-template build/index-template.js --no-index",
-    "compiler:clean": "rimraf packages/*/src",
+    "svgr:code": "svgr source/*/ --no-index",
+    "compiler:clean": "rimraf packages/react/src",
     "svgr": "npm run compiler:clean && npm run svgr:code && npm run compiler:code",
-    "build:clean": "rimraf packages/*/lib packages/*/es",
+    "build:clean": "rimraf packages/react/lib packages/react/es",
     "build:source": "gulp",
     "build": "npm run build:clean && npm run build:source",
     "publish": "lerna publish from-package --registry=https://registry.npmjs.org"

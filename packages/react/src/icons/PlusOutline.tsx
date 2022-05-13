@@ -6,8 +6,9 @@ const SvgPlusOutline = (props: SVGProps<SVGSVGElement>) => (
     className="plus-outline_svg__icon"
     viewBox="0 0 1024 1024"
     xmlns="http://www.w3.org/2000/svg"
-    width={200}
-    height={200}
+    width={24}
+    height={24}
+    fill={props.color}
     {...props}
   >
     <path d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8Z" />

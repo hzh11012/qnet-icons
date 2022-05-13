@@ -6,6 +6,9 @@ const SvgLeftCircleOutline = (props: SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     className="left-circle-outline_svg__icon"
     viewBox="0 0 1024 1024"
+    width={24}
+    height={24}
+    fill={props.color}
     {...props}
   >
     <path d="m603.3 327.5-246 178a7.95 7.95 0 0 0 0 12.9l246 178c5.3 3.8 12.7 0 12.7-6.5V643c0-10.2-4.9-19.9-13.2-25.9L457.4 512l145.4-105.2c8.3-6 13.2-15.6 13.2-25.9V334c0-6.5-7.4-10.3-12.7-6.5z" />

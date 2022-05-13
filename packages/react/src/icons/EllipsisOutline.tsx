@@ -6,6 +6,9 @@ const SvgEllipsisOutline = (props: SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     className="ellipsis-outline_svg__icon"
     viewBox="0 0 1024 1024"
+    width={24}
+    height={24}
+    fill={props.color}
     {...props}
   >
     <path d="M176 511a56 56 0 1 0 112 0 56 56 0 1 0-112 0zm280 0a56 56 0 1 0 112 0 56 56 0 1 0-112 0zm280 0a56 56 0 1 0 112 0 56 56 0 1 0-112 0z" />

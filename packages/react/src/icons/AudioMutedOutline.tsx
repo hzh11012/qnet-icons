@@ -6,8 +6,9 @@ const SvgAudioMutedOutline = (props: SVGProps<SVGSVGElement>) => (
     className="audio-muted-outline_svg__icon"
     viewBox="0 0 1024 1024"
     xmlns="http://www.w3.org/2000/svg"
-    width={200}
-    height={200}
+    width={24}
+    height={24}
+    fill={props.color}
     {...props}
   >
     <path d="M682 455V311l-76 76v68c-.1 50.7-42 92.1-94 92-19.1.1-36.8-5.4-52-15l-54 55c29.1 22.4 65.9 36 106 36 93.8 0 170-75.1 170-168z" />

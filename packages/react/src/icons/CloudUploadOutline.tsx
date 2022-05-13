@@ -6,6 +6,9 @@ const SvgCloudUploadOutline = (props: SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     className="cloud-upload-outline_svg__icon"
     viewBox="0 0 1024 1024"
+    width={24}
+    height={24}
+    fill={props.color}
     {...props}
   >
     <path d="M518.3 459a8 8 0 0 0-12.6 0l-112 141.7a7.98 7.98 0 0 0 6.3 12.9h73.9V856c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V613.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 459z" />

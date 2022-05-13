@@ -4,10 +4,11 @@ import { SVGProps } from "react";
 const SvgSlackOutline = (props: SVGProps<SVGSVGElement>) => (
   <svg
     className="slack-outline_svg__icon"
-    width={200}
-    height={200}
+    width={24}
+    height={24}
     viewBox="0 0 1024 1024"
     xmlns="http://www.w3.org/2000/svg"
+    fill={props.color}
     {...props}
   >
     <path

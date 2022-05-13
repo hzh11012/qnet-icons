@@ -2,10 +2,6 @@ import fs from "fs";
 import path from "path";
 import prettier from "prettier";
 
-const svgSourcePath = path.resolve(__dirname, "../source");
-
-const allIconMap: Record<string, string> = {};
-
 const compile = (type: "react") => {
   const iconsDir = path.resolve(__dirname, `../packages/${type}/src/icons`);
   if (!fs.existsSync(iconsDir)) {
@@ -28,7 +24,7 @@ const compile = (type: "react") => {
       path.resolve(iconsDir, "../index.ts"),
       prettier.format(fileContent, {
         parser: "babel",
-        tabWidth: 2
+        tabWidth: 2,
       }),
       { encoding: "utf8" }
     );
